@@ -1,5 +1,31 @@
 # Informationen zum Novalnet Release
 
+## v2.1.0 (20-08-2021)
+
+### Neu
+
+- Einführung von 3D Secure Payment für Kreditkarten in Ländern außerhalb der EU
+- Zahlungsziel für Vorkasse implementiert
+
+### Verbessert
+
+- Der Bestellstatus wurde gemäß der standardmäßigen Struktur des Shops optimiert
+- Beschreibung der Zahlungsart Kredit-/Debitkarte
+- Semantische Versionierungsstandards in der plugin.json optimiert
+- Name und Logo der Zahlungsmethode Barzahlen
+
+### Behoben
+
+- Der Prozentsatz des Zahlungsstatus wird während der Events "Erstattung durch Gutschrift" und "Statusänderung" nicht reduziert
+- Während des ursprünglichen Bestellstatus werden Novalnet-Transaktionsdetails im Rechnungs-PDF angezeigt
+- Doppelbuchungen sind bei Zahlungsarten mit Weiterleitung ausgeschlossen
+
+### Entfernt
+
+- Konfiguration des Proxyservers
+- Konfiguration der Gateway-Zeitüberschreitung
+- BCC-Feld für Webhook-E-Mail-Benachrichtigung
+
 ## v2.0.14 (21-06-2021)
 
 ### Behoben
