@@ -13,19 +13,19 @@ The Novalnet payment plugin integrates your business with the BaFin (German Fede
 
 ## Supported Novalnet payment methods
 
-- Credit Card (3DSecure and non 3DSecure)
+- Credit/Debit Cards
 - Direct Debit SEPA
 - Direct Debit SEPA with payment guarantee
 - Invoice
 - Invoice with payment guarantee
 - Prepayment
-- Instant Bank Transfer
+- Sofort
 - iDEAL
 - PayPal
 - giropay
 - eps
 - Przelewy24
-- Barzahlen
+- Barzahlen/viacash
 
 ## Opening a Novalnet merchant account
 
@@ -73,7 +73,7 @@ Fill in your Novalnet merchant account details as follows:
         </tr>
         <tr>
             <td><b>Payment access key</b></td>
-            <td>Secure public key for encryption and decryption of transaction parameters. This is mandatory value for all online transfers, Credit Card-3D secure and wallet systems. </td>
+            <td>Secure public key for encryption and decryption of transaction parameters. This is mandatory value for all online transfers, Credit/Debit Cards and wallet systems. </td>
         </tr>
     </tbody>
 </table>
