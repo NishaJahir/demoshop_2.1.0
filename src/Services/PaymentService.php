@@ -830,8 +830,9 @@ class PaymentService
 		$this->paymentHelper->updatePayments($transactionComments, $responseData['tid_status'], $order->id);
                 $this->paymentHelper->cancelPlentyOrder($order->id);
             } else {
-             $this->paymentHelper->createPlentyPayment($paymentData);
-	     }
+		$this->paymentHelper->updatePayments($tid, $responseData['tid_status'], $order->id);
+                $this->paymentHelper->createPlentyPayment($paymentData);
+	    }
          } else {
                $error = $this->paymentHelper->getNovalnetStatusText($responseData);
                $this->getLogger(__METHOD__)->error('Novalnet::doCaptureVoid', $error);
