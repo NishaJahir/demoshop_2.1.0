@@ -37,7 +37,7 @@ To set up your Novalnet payment plugin and start accepting payments, navigate to
 
 Fill in your Novalnet merchant account details as follows:
 
-1. Login into your merchant account at [Novalnet Merchant Administration Portal](https://admin.novalnet.de/)
+1. Login into your merchant account at [Novalnet Admin Portal](https://admin.novalnet.de/)
 2. Navigate to the tab **PROJECT**
 3. Select the corresponding product
 4. Go to Shop Parameters and copy the necessary fields such as **Merchant ID**, **Authentication code**, **Project ID**, **Tariff ID** and **Payment access key** etc.
@@ -65,7 +65,7 @@ Fill in your Novalnet merchant account details as follows:
         </tr>
         <tr>
             <td><b>Project ID</b></td>
-            <td>A unique identification number of a project created at the <a href="https://admin.novalnet.de/" target="_blank">Novalnet Merchant Administration Portal.</a></td>
+            <td>A unique identification number of a project created at the <a href="https://admin.novalnet.de/" target="_blank">Novalnet Admin Portal.</a></td>
         </tr>
         <tr>
             <td><b>Tariff ID</b></td>
@@ -80,7 +80,7 @@ Fill in your Novalnet merchant account details as follows:
 
 ## Novalnet Payment configuration in plentymarkets
 
-To activate the preferred payment methods, sign into the [Novalnet Merchant Administration Portal](https://admin.novalnet.de/).
+To activate the preferred payment methods, sign into the [Novalnet Admin Portal](https://admin.novalnet.de/).
 
 1. Navigate to the tab **PROJECT**
 2. Select the corresponding product
@@ -269,7 +269,7 @@ To display the payment transaction details in the invoice (pdf), please follow t
 Novalnet system (via asynchronous) transmits information about all transaction and their status to the merchant’s system.
 Notification / Webhook URL Configuration:
 
-1. Login into your merchant account at the [Novalnet Merchant Administration Portal](https://admin.novalnet.de/).
+1. Login into your merchant account at the [Novalnet Admin Portal](https://admin.novalnet.de/).
 2. Navigate to the tab **PROJECT**
 3. Select the corresponding product
 4. Project Overview
