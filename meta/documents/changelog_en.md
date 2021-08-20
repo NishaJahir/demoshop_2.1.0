@@ -1,5 +1,31 @@
 # Release Notes for Novalnet
 
+## v2.1.0 (2021-08-20)
+
+### New
+
+- Implemented enforce 3D secure payment for credit card for countries outside EU
+- Implemented Payment duration for Prepayment
+
+### Enhanced
+
+- Order status has been optimized as per shop default structure
+- Credit/Debit Cards payment method description
+- Semantic versioning standards optimized in plugin.json
+- Barzahlen payment method name and logo
+
+### Fix
+
+- Payment status percentage will not reduced during the Refund via Credit note and Status change event
+- During the initial order status, Novalnet transaction details will display in the Invoice PDF
+- Restricted double booking for redirect payments
+
+### Removed
+
+- Proxy server configuration
+- Gateway timeout configuration
+- BCC field for Webhook Email notification
+
 ## v2.0.14 (2021-06-21)
 
 ### Fix
