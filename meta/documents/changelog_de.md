@@ -1,6 +1,6 @@
 # Informationen zum Novalnet Release
 
-## v2.1.0 (20-08-2021)
+## v2.1.0 (20.08.2021)
 
 ### Neu
 
@@ -26,7 +26,7 @@
 - Konfiguration der Gateway-Zeitüberschreitung
 - BCC-Feld für Webhook-E-Mail-Benachrichtigung
 
-## v2.0.14 (21-06-2021)
+## v2.0.14 (21.06.2021)
 
 ### Behoben
 
