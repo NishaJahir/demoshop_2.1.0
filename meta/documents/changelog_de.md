@@ -1,6 +1,6 @@
 # Informationen zum Novalnet Release
 
-## v2.1.0 (20.08.2021)
+## v2.1.0 (2021-08-20)
 
 ### Neu
 
@@ -26,26 +26,26 @@
 - Konfiguration der Gateway-Zeitüberschreitung
 - BCC-Feld für Webhook-E-Mail-Benachrichtigung
 
-## v2.0.14 (21.06.2021)
+## v2.0.14 (2021-06-21)
 
 ### Behoben
 
 - IP-Adresse aktualisiert, um die tatsächliche IP des Novalnet-Servers zu erhalten
 - Callbacks vom Novalnet-Server an den Shop zu Folge-Transaktionen und Kommunikationsfehlern
 
-## v2.0.13 (03.06.2020)
+## v2.0.13 (2020-06-03)
 
 ### Erweitert
 
 - Standardmäßige Bestellgenerierung vor der Ausführung von Zahlungsaufrufen für karten- und kontenbasierte Zahlungen. Damit soll vermieden werden, dass Bestellungen während der Bezahlung verloren gehen, wenn der Browser des Endkunden geschlossen wird oder wenn es während des Bezahlvorgangs zu Sitzungs-Timeouts o.ä. kommt
 
-## v2.0.12 (29.04.2020)
+## v2.0.12 (2020-04-29)
 
 ### Erweitert
 
 - Grund für Gutschriften per API übertragen (für Kreditkarte, SEPA-Lastschrift, SEPA-Lastschrift mit Zahlungsgarantie, Rechnung, Rechnung mit Zahlungsgarantie, Sofortüberweisung, iDEAL, PayPal, eps, giropay und Przelewy24)
 
-## v2.0.11 (09.04.2020)
+## v2.0.11 (2020-04-09)
 
 ### Behoben
 
@@ -55,7 +55,7 @@
 - Fehler bei der Benachrichtigung zur Aktualisierung des Fälligkeitsdatums im Shop bei On-hold-Bestellungen per Rechnung, Rechnung mit Zahlungsgarantie und Vorkasse
 - Fehler bei der Anzeige des Brutto-Warenkorbwerts
 
-## v2.0.10 (31.10.2019)
+## v2.0.10 (2019-10-31)
 
 ### Behoben
 
@@ -65,14 +65,14 @@
 
 - Das Geburtsdatumsfeld auf der Checkout-Seite wurde angepasst
 
-## v2.0.9 (13.09.2019)
+## v2.0.9 (2019-09-13)
 
 ### Behoben
 
 - Fehler bei der Anzeige der Novalnet-Überweisungsdetails im Rechnungs-PDF mithilfe der Funktion “OrderPdfGeneration”
 - Fehler beim Bestätigen von Transaktionen durch den Händler bei Rechnung, Rechnung mit Zahlungsgarantie und Vorkasse
 
-## v2.0.8 (30.08.2019)
+## v2.0.8 (2019-08-30)
 
 ### Neu
 
@@ -82,25 +82,25 @@
 
 - Unbenutzte Altdateien früherer Versionen
 
-## v2.0.7 (24.06.2019)
+## v2.0.7 (2019-06-24)
 
 ### Behoben
 
 - Verhinderung von Doppelbuchungen durch den Endkunden
 
-## v2.0.6 (24.05.2019)
+## v2.0.6 (2019-05-24)
 
 ### Behoben
 
 - Hinzugefügt IO in plugin.json
 
-## v2.0.5 (14.05.2019)
+## v2.0.5 (2019-05-14)
 
 ### Verbessert
 
 - Bei Rechnung, Rechnung mit Zahlungsgarantie und Vorkasse wird für On-hold-Transaktionen die Bankverbindung von Novalnet auf der Rechnung angezeigt
 
-## v2.0.4 (24.04.2019)
+## v2.0.4 (2019-04-24)
 
 ### Behoben
 
@@ -114,13 +114,13 @@
 
 - Das Novalnet-Zahlungsmodul wurde ausgiebig  getestet und entsprechend optimiert
 
-## v2.0.3 (02.04.2019)
+## v2.0.3 (2019-04-02)
 
 ### Verbessert
 
 - Das Novalnet-Zahlungsmodul wurde ausgiebig  getestet und entsprechend optimiert
 
-## v2.0.2 (19.03.2019)
+## v2.0.2 (2019-03-19)
 
 ### Neu
 
@@ -138,13 +138,13 @@
 - Fehlermeldungsanzeige für abgelehnte Transaktionen
 - Problem mit dem Betragsformat in der Callback-Benachrichtigungs-E-Mail
 
-## v2.0.1 (23.01.2019)
+## v2.0.1 (2019-01-23)
 
 ### Behoben
 
 - Problem beim Update des Zahlungsplugins über plentyMarketplace
 
-## v2.0.0 (24.12.2018)
+## v2.0.0 (2018-12-24)
 
 ### Neu
 
@@ -162,24 +162,24 @@
 
 - Abgleich von Transaktionsinformationen in der Rechnung
 
-## v1.0.3 (22.08.2018)
+## v1.0.3 (2018-08-22)
 
 ### Neu
 
 - Funktion zum Austausch des Novalnet-Logos im Checkout durch eigenes Logo eingebaut
 
-## v1.0.2 (01.06.2018)
+## v1.0.2 (2018-06-01)
 
 ### Verbessert
 
 - Angepasstes Zahlungs-Plugin für die neue Konfigurationsstruktur und Unterstützung für mehrere Sprachen.
 
-## v1.0.1 (17.01.2018)
+## v1.0.1 (2018-01-17)
 
 ### Verbessert
 
 - Die Fehlermeldung wird ohne Fehlercode angezeigt.
 
-## v1.0.0 (08.12.2017)
+## v1.0.0 (2017-12-08)
 
 - Neuer Release
