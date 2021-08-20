@@ -13,9 +13,9 @@ Das Novalnet Payment-Plugin für Plentymarkets ist eine Ende-zu-Ende-Lösung fü
 Das Novalnet-Zahlungsplugin bindet Ihre Verkaufsplattform an die von der BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) akkreditierte Novalnet-Zahlungsplattform an. Somit sind mehrere Verträge und Lizenzen für die Zahlungsabwicklung Ihres Plentymarkets-Systems überflüssig. Konzentrieren Sie sich auf das Wachstum Ihres Unternehmens, wir kümmern uns um alles rund um Ihre Zahlungsabwicklung!
 
 ## Unterstützte Zahlungsarten
-- Kreditkarte (mit und ohne 3D-Secure)
-- Lastschrift SEPA
-- Lastschrift SEPA mit Zahlingsgarantie
+- Kredit- / Debitkarte
+- SEPA-Lastschrift
+- SEPA-Lastschrift mit Zahlingsgarantie
 - Rechnung
 - Rechnung mit Zahlingsgarantie
 - Vorkasse
@@ -25,7 +25,7 @@ Das Novalnet-Zahlungsplugin bindet Ihre Verkaufsplattform an die von der BaFin (
 - giropay
 - eps
 - Przelewy24
-- Barzahlen  
+- Barzahlen/viacash  
 
 ## Abschluss eines Novalnet Händlerkontos/Dienstleistungsvertrags:
 
@@ -73,7 +73,7 @@ Geben Sie wie folgt Ihre Novalnet-Händlerdaten an:
         </tr>
         <tr>
             <td><b>Zahlungs-Zugriffsschlüssel</b></td>
-            <td>Sicherer öffentlicher Schlüssel zur Ver- und Entschlüsselung von Transaktionsparametern. Dieser ist obligatorisch für alle Online-Überweisungen, Kreditkartenzahlungen mit 3D-Secure und Wallet-Systeme.</td>
+            <td>Sicherer öffentlicher Schlüssel zur Ver- und Entschlüsselung von Transaktionsparametern. Dieser ist obligatorisch für alle Online-Überweisungen, Kredit- / Debitkarte und Wallet-Systeme.</td>
         </tr>
         </tbody>
 </table>
