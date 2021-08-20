@@ -24,6 +24,7 @@
 
 - Proxy server configuration
 - Gateway timeout configuration
+- Referrer Id configuration
 - BCC field for Webhook Email notification
 
 ## v2.0.14 (2021-06-21)
