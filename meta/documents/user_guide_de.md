@@ -37,7 +37,7 @@ Um Ihr Novalnet-Zahlungs-Plugin zu konfigurieren und mit der Annahme von Zahlung
 
 Geben Sie wie folgt Ihre Novalnet-Händlerdaten an:
 
-1. Melden Sie sich mit Ihrem Händeraccount im [Novalnet-Händleradminportal](https://admin.novalnet.de/) an.
+1. Melden Sie sich mit Ihrem Händeraccount im [Novalnet Admin-Portal](https://admin.novalnet.de/) an.
 2. Gehen Sie auf den Tab **PROJEKTE**
 3. Wählen Sie Ihr Projekt aus
 4. Klicken Sie auf Parameter Ihres Shops und füllen Sie die erforderlichen Felder aus: **Händler-ID**, **Authentifizierungscode**, **Projekt-ID**, **Tarif-ID** und **Zahlungs-Zugriffsschlüssel** etc.
@@ -65,7 +65,7 @@ Geben Sie wie folgt Ihre Novalnet-Händlerdaten an:
         </tr>
         <tr>
             <td><b>Projekt-ID</b></td>
-            <td>Eine einzigartige ID-Nummer für  das im Novalnet- Händleradminportal erstellte Projekt.</td>
+            <td>Eine einzigartige ID-Nummer für  das im Novalnet Admin-Portal erstellte Projekt.</td>
         </tr>
         <tr>
             <td><b>Tarif-ID</b></td>
@@ -80,7 +80,7 @@ Geben Sie wie folgt Ihre Novalnet-Händlerdaten an:
 
 ## Novalnet-Zahlungseinstellungen in Plentymarkets
 
-Um Ihre bevorzugten Zahlungsarten zu aktivieren, melden Sie sich im [Novalnet-Händleradminportal](https://admin.novalnet.de/) an.
+Um Ihre bevorzugten Zahlungsarten zu aktivieren, melden Sie sich im [Novalnet Admin-Portal](https://admin.novalnet.de/) an.
 
 1. Klicken Sie auf den Menüpunkt **PROJEKTE**.
 2. Wählen Sie das gewünschte Projekt aus.
@@ -266,7 +266,7 @@ Führen Sie die folgenden Schritte aus, um die Transaktionsdetails im Rechnungs-
 Das Novalnet-System überträgt (über asynchronen Aufruf) Informationen über den gesamten Transaktionsstatus an das System des Händlers.
 Konfiguration der Notification- / Webhook-URL:
 
-1. Melden Sie sich im [Novalnet-Händleradminportal](https://admin.novalnet.de/) an.
+1. Melden Sie sich im [Novalnet Admin-Portal](https://admin.novalnet.de/) an.
 2. Wählen Sie den Menüpunkt **Projekte** aus.
 3. Wählen Sie das gewünschte Projekt aus.
 4. Klicken Sie auf **Projektübersicht**
