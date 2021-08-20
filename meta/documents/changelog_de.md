@@ -24,6 +24,7 @@
 
 - Konfiguration des Proxyservers
 - Konfiguration der Gateway-Zeitüberschreitung
+- Konfiguration der Partner-ID
 - BCC-Feld für Webhook-E-Mail-Benachrichtigung
 
 ## v2.0.14 (2021-06-21)
